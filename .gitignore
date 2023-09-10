@@ -1,5 +1,4 @@
 run.sh
 .env/
 *.DS_Store
-testapp.js
 testapp.py

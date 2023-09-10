@@ -3,8 +3,8 @@ FROM node:latest
 # replace this with your application's default port
 EXPOSE 8888
 
-COPY ./testapp.js /home/testapp.js
+COPY ./* /actual-wise-app
 
 RUN yarn add @actual-app/api
 
-ENTRYPOINT node /home/testapp.js
+ENTRYPOINT node /actual-wise-app/testapp.js
