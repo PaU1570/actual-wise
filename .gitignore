@@ -1,0 +1,4 @@
+secrets.txt
+run.sh
+.env/
+*.DS_Store
